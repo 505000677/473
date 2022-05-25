@@ -1,0 +1,12 @@
+e5-cse-135-01.cse.psu.edu 34$ ./prog1 
+Address 1 = 0x7fff06b077b0    Address 2 = 0x135e010
+Address 1 = 0x7fff06ad7210    Address 2 = 0x135e210
+Address 1 = 0x7fff06aa6c70    Address 2 = 0x135e410
+Address 1 = 0x7fff06a766d0    Address 2 = 0x135e610
+Address 1 = 0x7fff06a46130    Address 2 = 0x135e810
+Address 1 = 0x7fff06a15b90    Address 2 = 0x135ea10
+Address 1 = 0x7fff069e55f0    Address 2 = 0x135ec10
+Address 1 = 0x7fff069b5050    Address 2 = 0x135ee10
+Address 1 = 0x7fff06984ab0    Address 2 = 0x135f010
+Address 1 = 0x7fff06954510    Address 2 = 0x135f210
+Enter anyxx key to exit
