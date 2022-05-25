@@ -1,0 +1,47 @@
+cat /proc/21127/maps
+00400000-0045c000 r-xp 00000000 fd:00 270071444                          /usr/bin/tcsh
+0065b000-0065c000 r--p 0005b000 fd:00 270071444                          /usr/bin/tcsh
+0065c000-00661000 rw-p 0005c000 fd:00 270071444                          /usr/bin/tcsh
+00661000-00676000 rw-p 00000000 00:00 0 
+01ce9000-01d6d000 rw-p 00000000 00:00 0                                  [heap]
+7f7645f7b000-7f7645f91000 r-xp 00000000 fd:00 537237644                  /usr/lib64/libresolv-2.17.so
+7f7645f91000-7f7646191000 ---p 00016000 fd:00 537237644                  /usr/lib64/libresolv-2.17.so
+7f7646191000-7f7646192000 r--p 00016000 fd:00 537237644                  /usr/lib64/libresolv-2.17.so
+7f7646192000-7f7646193000 rw-p 00017000 fd:00 537237644                  /usr/lib64/libresolv-2.17.so
+7f7646193000-7f7646195000 rw-p 00000000 00:00 0 
+7f7646195000-7f76461cc000 r-xp 00000000 fd:00 537625184                  /usr/lib64/libnss_centrifydc.so.2
+7f76461cc000-7f76463cc000 ---p 00037000 fd:00 537625184                  /usr/lib64/libnss_centrifydc.so.2
+7f76463cc000-7f76463ce000 rw-p 00037000 fd:00 537625184                  /usr/lib64/libnss_centrifydc.so.2
+7f76463ce000-7f764c911000 r--p 00000000 fd:00 805334290                  /usr/lib/locale/locale-archive
+7f764c911000-7f764c913000 r-xp 00000000 fd:00 537225833                  /usr/lib64/libdl-2.17.so
+7f764c913000-7f764cb13000 ---p 00002000 fd:00 537225833                  /usr/lib64/libdl-2.17.so
+7f764cb13000-7f764cb14000 r--p 00002000 fd:00 537225833                  /usr/lib64/libdl-2.17.so
+7f764cb14000-7f764cb15000 rw-p 00003000 fd:00 537225833                  /usr/lib64/libdl-2.17.so
+7f764cb15000-7f764cb17000 r-xp 00000000 fd:00 537242959                  /usr/lib64/libfreebl3.so
+7f764cb17000-7f764cd16000 ---p 00002000 fd:00 537242959                  /usr/lib64/libfreebl3.so
+7f764cd16000-7f764cd17000 r--p 00001000 fd:00 537242959                  /usr/lib64/libfreebl3.so
+7f764cd17000-7f764cd18000 rw-p 00002000 fd:00 537242959                  /usr/lib64/libfreebl3.so
+7f764cd18000-7f764cedc000 r-xp 00000000 fd:00 537225816                  /usr/lib64/libc-2.17.so
+7f764cedc000-7f764d0db000 ---p 001c4000 fd:00 537225816                  /usr/lib64/libc-2.17.so
+7f764d0db000-7f764d0df000 r--p 001c3000 fd:00 537225816                  /usr/lib64/libc-2.17.so
+7f764d0df000-7f764d0e1000 rw-p 001c7000 fd:00 537225816                  /usr/lib64/libc-2.17.so
+7f764d0e1000-7f764d0e6000 rw-p 00000000 00:00 0 
+7f764d0e6000-7f764d0ee000 r-xp 00000000 fd:00 537225830                  /usr/lib64/libcrypt-2.17.so
+7f764d0ee000-7f764d2ed000 ---p 00008000 fd:00 537225830                  /usr/lib64/libcrypt-2.17.so
+7f764d2ed000-7f764d2ee000 r--p 00007000 fd:00 537225830                  /usr/lib64/libcrypt-2.17.so
+7f764d2ee000-7f764d2ef000 rw-p 00008000 fd:00 537225830                  /usr/lib64/libcrypt-2.17.so
+7f764d2ef000-7f764d31d000 rw-p 00000000 00:00 0 
+7f764d31d000-7f764d342000 r-xp 00000000 fd:00 537268005                  /usr/lib64/libtinfo.so.5.9
+7f764d342000-7f764d542000 ---p 00025000 fd:00 537268005                  /usr/lib64/libtinfo.so.5.9
+7f764d542000-7f764d546000 r--p 00025000 fd:00 537268005                  /usr/lib64/libtinfo.so.5.9
+7f764d546000-7f764d547000 rw-p 00029000 fd:00 537268005                  /usr/lib64/libtinfo.so.5.9
+7f764d547000-7f764d569000 r-xp 00000000 fd:00 537237758                  /usr/lib64/ld-2.17.so
+7f764d72e000-7f764d733000 rw-p 00000000 00:00 0 
+7f764d760000-7f764d767000 r--s 00000000 fd:00 337668                     /usr/lib64/gconv/gconv-modules.cache
+7f764d767000-7f764d768000 rw-p 00000000 00:00 0 
+7f764d768000-7f764d769000 r--p 00021000 fd:00 537237758                  /usr/lib64/ld-2.17.so
+7f764d769000-7f764d76a000 rw-p 00022000 fd:00 537237758                  /usr/lib64/ld-2.17.so
+7f764d76a000-7f764d76b000 rw-p 00000000 00:00 0 
+7ffd713ac000-7ffd713cd000 rw-p 00000000 00:00 0                          [stack]
+7ffd713e2000-7ffd713e4000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]

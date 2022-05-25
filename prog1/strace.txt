@@ -1,0 +1,70 @@
+e5-cse-135-01.cse.psu.edu 51$ strace prog1
+execve("./prog1", ["prog1"], 0x7ffc5d065bd0 /* 58 vars */) = 0
+brk(NULL)                               = 0x118e000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff163ac4000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/local/cuda/lib64/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64/tls/x86_64", 0x7fff54181a50) = -1 ENOENT (No such file or directory)
+open("/usr/local/cuda/lib64/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64/tls", 0x7fff54181a50) = -1 ENOENT (No such file or directory)
+open("/usr/local/cuda/lib64/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64/x86_64", 0x7fff54181a50) = -1 ENOENT (No such file or directory)
+open("/usr/local/cuda/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64", {st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+open("tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("libc.so.6", O_RDONLY|O_CLOEXEC)   = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=212461, ...}) = 0
+mmap(NULL, 212461, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff163a90000
+close(3)                                = 0
+open("/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`&\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2156592, ...}) = 0
+mmap(NULL, 3985920, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff1634d6000
+mprotect(0x7ff16369a000, 2093056, PROT_NONE) = 0
+mmap(0x7ff163899000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c3000) = 0x7ff163899000
+mmap(0x7ff16389f000, 16896, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff16389f000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff163a8f000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff163a8d000
+arch_prctl(ARCH_SET_FS, 0x7ff163a8d740) = 0
+access("/etc/sysconfig/strcasecmp-nonascii", F_OK) = -1 ENOENT (No such file or directory)
+access("/etc/sysconfig/strcasecmp-nonascii", F_OK) = -1 ENOENT (No such file or directory)
+mprotect(0x7ff163899000, 16384, PROT_READ) = 0
+mprotect(0x600000, 4096, PROT_READ)     = 0
+mprotect(0x7ff163ac5000, 4096, PROT_READ) = 0
+munmap(0x7ff163a90000, 212461)          = 0
+brk(NULL)                               = 0x118e000
+brk(0x11af000)                          = 0x11af000
+brk(NULL)                               = 0x11af000
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 3), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff163ac3000
+write(1, "Address 1 = 0x7fff54152d10    Ad"..., 52Address 1 = 0x7fff54152d10    Address 2 = 0x118e010
+) = 52
+write(1, "Address 1 = 0x7fff54122770    Ad"..., 52Address 1 = 0x7fff54122770    Address 2 = 0x118e210
+) = 52
+write(1, "Address 1 = 0x7fff540f21d0    Ad"..., 52Address 1 = 0x7fff540f21d0    Address 2 = 0x118e410
+) = 52
+write(1, "Address 1 = 0x7fff540c1c30    Ad"..., 52Address 1 = 0x7fff540c1c30    Address 2 = 0x118e610
+) = 52
+write(1, "Address 1 = 0x7fff54091690    Ad"..., 52Address 1 = 0x7fff54091690    Address 2 = 0x118e810
+) = 52
+write(1, "Address 1 = 0x7fff540610f0    Ad"..., 52Address 1 = 0x7fff540610f0    Address 2 = 0x118ea10
+) = 52
+write(1, "Address 1 = 0x7fff54030b50    Ad"..., 52Address 1 = 0x7fff54030b50    Address 2 = 0x118ec10
+) = 52
+write(1, "Address 1 = 0x7fff540005b0    Ad"..., 52Address 1 = 0x7fff540005b0    Address 2 = 0x118ee10
+) = 52
+write(1, "Address 1 = 0x7fff53fd0010    Ad"..., 52Address 1 = 0x7fff53fd0010    Address 2 = 0x118f010
+) = 52
+write(1, "Address 1 = 0x7fff53f9fa70    Ad"..., 52Address 1 = 0x7fff53f9fa70    Address 2 = 0x118f210
+) = 52
+write(1, "Enter anyxx key to exit\n", 24Enter anyxx key to exit
+) = 24
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 3), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff163ac2000
+read(0, "\n", 1024)                     = 1
+exit_group(0)                           = ?
++++ exited with 0 +++
